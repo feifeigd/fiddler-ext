@@ -9,7 +9,9 @@ using fiddler_ext.Scripts;
 using Fiddler;
 
 // 这个类，不能有namespace
-class MaiCheSettingView : IFiddlerExtension
+namespace Scripts
+{
+public class MaiCheSettingView : IFiddlerExtension
 {
     public void OnBeforeUnload()
     {
@@ -21,8 +23,11 @@ class MaiCheSettingView : IFiddlerExtension
         var view = new TestView();
         view.Dock = DockStyle.Fill;
         var tab = new TabPage();
-        tab.Text = "相关设置";
+        tab.Text = "自定义插件";
         tab.Controls.Add(view);
         FiddlerApplication.UI.tabsViews.TabPages.Add(tab);
     }
+}
+
+
 }
