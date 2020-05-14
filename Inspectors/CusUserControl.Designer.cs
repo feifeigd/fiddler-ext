@@ -1,4 +1,4 @@
-﻿namespace CustomInspectors
+﻿namespace Inspectors
 {
     partial class CusUserControl
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Fiddler;
 
-namespace CustomInspectors
+namespace Inspectors
 {
     public class CatchInspectors : Inspector2, IRequestInspector2, IResponseInspector2
     {

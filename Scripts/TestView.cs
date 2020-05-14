@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CustomInspectors
+namespace fiddler_ext.Scripts
 {
-    public partial class CusUserControl : UserControl
+    public partial class TestView : UserControl
     {
-        public CusUserControl()
+        public TestView()
         {
             InitializeComponent();
         }
