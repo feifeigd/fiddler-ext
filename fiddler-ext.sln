@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fiddler-ext", "fiddler-ext\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiddlerApp", "FiddlerApp\FiddlerApp.csproj", "{92684470-8084-4176-97B2-E36E32DBD6BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d7kj", "d7kj\d7kj.csproj", "{5E3F56F6-DDC9-458F-B9D3-B289E098987B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{92684470-8084-4176-97B2-E36E32DBD6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92684470-8084-4176-97B2-E36E32DBD6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92684470-8084-4176-97B2-E36E32DBD6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3F56F6-DDC9-458F-B9D3-B289E098987B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3F56F6-DDC9-458F-B9D3-B289E098987B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3F56F6-DDC9-458F-B9D3-B289E098987B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3F56F6-DDC9-458F-B9D3-B289E098987B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
