@@ -46,11 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Inspectors\CatchInspectors.cs" />
+    <Compile Include="FiddlerUtility\UASimulator.cs" />
+    <Compile Include="Inspectors\InspectorsBase.cs" />
     <Compile Include="Inspectors\CusUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Inspectors\CusUserControl.Designer.cs" />
+    <Compile Include="Inspectors\request\RequestInspector.cs" />
+    <Compile Include="Inspectors\response\ResponseInspector.cs" />
+    <Compile Include="Scripts\CSVTranscoder.cs" />
     <Compile Include="Scripts\MaiCheSettingView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scripts\TestView.cs">
@@ -73,6 +77,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy $(TargetPath) E:\Programs\Fiddler\Scripts</PostBuildEvent>
+    <PostBuildEvent>copy $(TargetPath) E:\Programs\Fiddler\Inspectors</PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -8,28 +8,24 @@ using Fiddler;
 
 namespace Inspectors
 {
-    public class CatchInspectors : Inspector2, IRequestInspector2, IResponseInspector2
+    public class InspectorsBase : Inspector2
     {
-        HTTPRequestHeaders _requestHeaders;
-        HTTPResponseHeaders _responseHeaders;
         CusUserControl cusUserControl { get; set; }
 
         byte[] _requestBody;
         bool _bReadOnly;
 
-        HTTPRequestHeaders IRequestInspector2.headers { get => _requestHeaders; set => _requestHeaders = value; }
 
         public byte[] body { get => _requestBody; set
             {
                 _requestBody = value;
-                cusUserControl.RTxtBoxBody.Text = Encoding.Default.GetString(value);
+                cusUserControl.RTxtBoxBody.Text = Encoding.UTF8.GetString(value); 
             }
         }
 
         public bool bDirty => true;
 
         public bool bReadOnly { get => true; set => _bReadOnly = value; }
-        HTTPResponseHeaders IResponseInspector2.headers { get => _responseHeaders; set => _responseHeaders = value; }
 
         public override void AddToTab(TabPage o)
         {
