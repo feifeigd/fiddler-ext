@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fiddler-ext", "fiddler-ext\fiddler-ext.csproj", "{C957D0E7-ED6E-4568-B777-019DE4841E4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiddlerApp", "FiddlerApp\FiddlerApp.csproj", "{92684470-8084-4176-97B2-E36E32DBD6BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C957D0E7-ED6E-4568-B777-019DE4841E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C957D0E7-ED6E-4568-B777-019DE4841E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C957D0E7-ED6E-4568-B777-019DE4841E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92684470-8084-4176-97B2-E36E32DBD6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92684470-8084-4176-97B2-E36E32DBD6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92684470-8084-4176-97B2-E36E32DBD6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92684470-8084-4176-97B2-E36E32DBD6BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
