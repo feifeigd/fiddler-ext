@@ -84,9 +84,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FiddlerCore">
+      <Version>4.6.2</Version>
+    </PackageReference>
     <PackageReference Include="FiddlerCore2">
       <Version>1.0.0</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\d7kj\d7kj.csproj">
+      <Project>{5e3f56f6-ddc9-458f-b9d3-b289e098987b}</Project>
+      <Name>d7kj</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
